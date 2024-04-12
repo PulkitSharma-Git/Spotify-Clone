@@ -134,7 +134,7 @@ async function displayAlbums(){
 
             songsUL.innerHTML =""
             console.log(item.target, item.currentTarget.dataset)
-            songs = await getSongs(`songs/${item.currentTarget.dataset.folder}`);
+            songs = await getSongs(`/songs/${item.currentTarget.dataset.folder}`);
             playMusic(songs[0])
         
         })
