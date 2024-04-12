@@ -26,7 +26,7 @@ function formatTime(seconds) {
 //Function to load all the songs into a array named as songs
 async function getSongs(folder){
     currFolder= folder;
-    let a  = await fetch (`/${folder}/`)
+    let a  = await fetch (`${folder}/`)
     let response = await a.text()
     let div = document.createElement("div");
     div.innerHTML= response
