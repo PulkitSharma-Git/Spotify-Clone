@@ -144,7 +144,7 @@ async function displayAlbums(){
 
 async function main(){
     //Load the list of the songs
-    await getSongs("songs/ncs");
+    await getSongs("/songs/ncs");
     playMusic(songs[0] , true)
 
  
