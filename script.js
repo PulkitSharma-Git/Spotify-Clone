@@ -144,7 +144,7 @@ async function displayAlbums(){
 
 async function main(){
     //Load the list of the songs
-    await getSongs("https://github.com/PulkitSharma-Git/Spotify-Clone/songs/ncs");
+    await getSongs("/Spotify-Clone/songs/ncs");
     playMusic(songs[0] , true)
 
  
